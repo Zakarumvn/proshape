@@ -1,0 +1,20 @@
+
+{
+"name": "proshape",
+"description": "",
+"version": "1.0.0",
+"private": true,
+"dependencies": {
+"angular": "^1.6.5",
+"angular-route": "^1.6.5",
+"angular-cookies": "^1.6.5",
+"bootstrap": "^4.0.0-alpha.6",
+"tether": "^1.4.0",
+"jQuery": "2.2.1"
+},
+"resolutions": {
+"angular": "^1.6.5",
+"angular-route": "^1.6.5",
+"angular-loader": "^1.6.5"
+}
+}

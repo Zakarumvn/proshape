@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>proShape</title>
+    <link href="app/lib.css" rel="stylesheet">
+    <link href="app/app.css" rel="stylesheet">
+
+
+    <!-- Temporary navbar container fix -->
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+        /* Temporary fix for img-fluid sizing within the carousel */
+
+        .carousel-item.active,
+        .carousel-item-next,
+        .carousel-item-prev {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body ng-app="proshape">
+<script type="text/javascript" src="app/lib.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
+
+
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse myNavbar">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+        <a class="navbar-brand" href="#/">proShape</a>
+        <form class="navbar-form" role="search">
+            <div class="input-group">
+                <input type="search" class="form-control mySearch" placeholder="Search" name="q">
+                <div class="input-group-btn">
+                    <button class="btn btn-default searchButton" type="submit"></button>
+                </div>
+            </div>
+        </form>
+
+        <div class="collapse navbar-collapse" id="navbarExample">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+
+
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/rank">Ranking</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kategorie
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                        <a class="dropdown-item" href="#/">Obiekty</a>
+                        <a class="dropdown-item" href="#/">Wystawy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/groups">Grupy</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#/">Logowanie</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="container">
+    <div ng-view>
+
+    </div>
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-inverse">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+
+</body>
+
+</html>

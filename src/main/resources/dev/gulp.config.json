@@ -1,0 +1,61 @@
+{
+  "lib": {
+    "proshape": {
+      "css": [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "bower_components/tether/dist/css/tether.min.css"
+      ],
+      "js": [
+        "bower_components/angular/angular.min.js",
+        "bower_components/angular-route/angular-route.min.js",
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/angular-currency-filter/dist/currency-filter.min.js",
+        "bower_components/angular-cookies/angular-cookies.min.js",
+        "bower_components/tether/dist/js/tether.min.js",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"
+      ]
+    }
+  },
+
+  "proshape": {
+    "css": [
+      "app/app.css"
+    ],
+    "js": [
+      "app/app.js",
+      "app/app.config.js",
+      "app/app.opt.js",
+      "app/app.sysfct.js",
+      "app/app.constants.js",
+      "app/app.routes.js",
+      "app/**/*.class.js",
+      "app/**/*.module.js",
+      "app/**/*.controller.js",
+      "app/**/*.service.js",
+      "app/**/*.filter.js",
+      "app/**/*.factory.js",
+      "app/**/*.directive.js",
+      "app/**/**/*.module.js",
+      "app/**/**/*.controller.js",
+      "app/**/**/*.service.js",
+      "app/**/**/*.filter.js",
+      "app/**/**/*.factory.js",
+      "app/**/**/*.directive.js",
+      "app/**/**/*.class.js"
+    ]
+  },
+
+  "filesToWatch": [
+    "app/app.js",
+    "app/app.routes.js",
+    "app/**/*.js",
+    "app/**/*.css",
+    "app/**/*.html",
+    "app/**/**/*.html",
+    "app/**/*.json",
+    "assets/**/*",
+    "gulp.config.json",
+    "index.html",
+    "login.html"
+  ]
+}

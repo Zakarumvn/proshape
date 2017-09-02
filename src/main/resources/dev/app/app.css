@@ -1,0 +1,105 @@
+body {
+    padding-top: 54px;
+}
+
+.socialIcon{
+    width: 30px;
+    height: 30px;
+}
+.myNavbar{
+    background-color: #cd4100 !important;
+}
+
+.myButton{
+    background: #cd4100;
+    border: none;
+}
+
+.myButton:hover{
+    background: #f28200;
+    border: none;
+}
+
+.searchButton{
+    background: #cd4100;
+    border: 1px solid #af3700;
+}
+
+.searchButton:hover{
+    background: #f28200;
+    border: 1px solid #f28200;}
+
+.form-control{
+    color: white !important;
+}
+
+.form-control:focus{
+    color:#000000;
+    background-color:#cd4100;
+    border-color:#f28200;
+    outline:0
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #dc8e7f;
+    opacity: 1
+}
+
+.form-control[readonly]{background-color:#cd4100;opacity:1}
+a{
+    color:#cd4100;
+}
+
+a:hover{
+    color:#f28200
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid #cd4100;
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.navLink{
+    color: white;
+    display:block;
+    padding:.5em 1em;
+}
+
+.mySearch{
+    background: #cd4100 !important;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.bg-inverse {
+    background: #cd4100 !important;
+}
